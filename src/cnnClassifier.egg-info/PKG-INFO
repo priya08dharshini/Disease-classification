@@ -8,25 +8,28 @@ Author-email: dharshu129@gmail.com
 Project-URL: Bug Tracker, https://github.com/priya08dharshini/Kidney-Disease-Classification-Deep-Learning-Project/issues
 
 # Disease-classification
-'''
-How to run?
-'''
-STEPS:
+
+# How to run?
+
+### STEPS: 
+
 Clone the repository
+
 ```bash
 https://github.com/priya08dharshini/Disease-classification
 ```
-'''
+
 ### STEP 01- Create a conda environment after opening the repository
+
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n kidney python=3.8 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate kidney
 ```
-'''
-STEP 02- install the requirements
+
+### STEP 02- install the requirements
 ```bash
 pip install -r requirements.txt
 ```
